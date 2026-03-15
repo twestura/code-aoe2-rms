@@ -1,0 +1,17 @@
+/* SYNTAX TEST "source.aoe2-rms" "comment"
+
+/* basic comment */
+/* <- comment.block.aoe2-rms
+
+/* multiline
+   comment */
+/* <- comment.block.aoe2-rms
+
+/* nested /* comment */ still outer */
+/* <- comment.block.aoe2-rms
+
+/* outer /* mid /* inner */ mid */ outer */
+/* <- comment.block.aoe2-rms
+
+/*not-a-comment*/
+/* <- variable.other.constant.aoe2-rms

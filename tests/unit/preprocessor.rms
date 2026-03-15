@@ -1,0 +1,19 @@
+/* SYNTAX TEST "source.aoe2-rms" "preprocessor"
+
+#const MUD 76
+/* <- keyword.other.preprocessor.aoe2-rms
+/*     ^^^ variable.other.constant.aoe2-rms
+/*         ^^ constant.numeric.integer.aoe2-rms
+
+#const HERDABLE SHEEP
+/* <- keyword.other.preprocessor.aoe2-rms
+/*     ^^^^^^^^ variable.other.constant.aoe2-rms
+/*              ^^^^^ variable.other.constant.aoe2-rms
+
+#define FOO
+/* <- keyword.other.preprocessor.aoe2-rms
+/*      ^^^ variable.other.constant.aoe2-rms
+
+#include_drs path.rms
+/* <- keyword.other.preprocessor.aoe2-rms
+/*           ^^^^^^^^ string.unquoted.aoe2-rms

@@ -1,0 +1,51 @@
+{
+  "name": "aoe2-rms",
+  "displayName": "Aoe2 RMS",
+  "publisher": "twestura",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twestura/code-aoe2-rms"
+  },
+  "keywords": ["aoe2", "age of empires", "random map", "rms"],
+  "description": "Age of Empires II Random Map Script language support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.111.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "aoe2-rms",
+        "aliases": [
+          "Aoe2 RMS",
+          "aoe2-rms"
+        ],
+        "extensions": [
+          ".rms",
+          ".rms2",
+          ".def",
+          ".inc",
+          ".bina"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "aoe2-rms",
+        "scopeName": "source.aoe2-rms",
+        "path": "./syntaxes/aoe2-rms.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vscode-tmgrammar-test": "^0.1.3"
+  },
+  "scripts": {
+    "test": "vscode-tmgrammar-test \"tests/unit/**/*.rms\""
+  }
+}

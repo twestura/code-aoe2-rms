@@ -1,0 +1,25 @@
+/* SYNTAX TEST "source.aoe2-rms" "sections"
+
+<PLAYER_SETUP>
+/* <- entity.name.tag.aoe2-rms
+
+<LAND_GENERATION>
+/* <- entity.name.tag.aoe2-rms
+
+<ELEVATION_GENERATION>
+/* <- entity.name.tag.aoe2-rms
+
+<CLIFF_GENERATION>
+/* <- entity.name.tag.aoe2-rms
+
+<TERRAIN_GENERATION>
+/* <- entity.name.tag.aoe2-rms
+
+<CONNECTION_GENERATION>
+/* <- entity.name.tag.aoe2-rms
+
+<OBJECTS_GENERATION>
+/* <- entity.name.tag.aoe2-rms
+
+<NOT_A_SECTION>
+/* <- variable.other.constant.aoe2-rms

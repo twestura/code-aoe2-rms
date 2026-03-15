@@ -1,0 +1,22 @@
+/* SYNTAX TEST "source.aoe2-rms" "commands"
+
+create_land
+/* <- entity.name.function.aoe2-rms
+
+base_terrain GRASS
+/* <- entity.name.function.aoe2-rms
+
+base_layer DIRT
+/* <- entity.name.function.aoe2-rms
+
+create_terrain GRASS {
+/* <- entity.name.function.aoe2-rms
+  base_terrain DIRT
+/*^^^^^^^^^^^^ variable.other.property.aoe2-rms
+  base_layer WATER
+/*^^^^^^^^^^ variable.other.property.aoe2-rms
+  terrain_type SAND
+/*^^^^^^^^^^^^ variable.other.property.aoe2-rms
+  number_of_clumps 10
+/*^^^^^^^^^^^^^^^^ variable.other.property.aoe2-rms
+}

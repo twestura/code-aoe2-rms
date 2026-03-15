@@ -1,0 +1,22 @@
+/* SYNTAX TEST "source.aoe2-rms" "values"
+
+#const ZERO 0
+/*          ^ constant.numeric.integer.aoe2-rms
+
+#const NEG -42
+/*         ^^^ constant.numeric.integer.aoe2-rms
+
+#const PI 3.14
+/*        ^^^^ constant.numeric.float.aoe2-rms
+
+#const INF inf
+/*         ^^^ constant.numeric.float.aoe2-rms
+
+#const ANGLE rnd(0,359)
+/*           ^^^ entity.name.function.aoe2-rms
+
+#FOREST
+/* <- meta.preprocessor.macro.aoe2-rms
+
+#TCBOXES
+/* <- meta.preprocessor.macro.aoe2-rms

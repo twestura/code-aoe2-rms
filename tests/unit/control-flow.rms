@@ -1,0 +1,22 @@
+/* SYNTAX TEST "source.aoe2-rms" "control-flow"
+
+if FOO
+/* <- keyword.control.aoe2-rms
+
+elseif FOO
+/* <- keyword.control.aoe2-rms
+
+else
+/* <- keyword.control.aoe2-rms
+
+endif
+/* <- keyword.control.aoe2-rms
+
+start_random
+/* <- keyword.control.aoe2-rms
+
+percent_chance 50
+/* <- keyword.control.aoe2-rms
+
+end_random
+/* <- keyword.control.aoe2-rms

@@ -1,0 +1,22 @@
+/* SYNTAX TEST "source.aoe2-rms" "identifiers"
+
+/* Identifiers that include braces/brackets are not blocks. */
+
+#define {A
+/*      ^^ variable.other.constant.aoe2-rms
+
+#define A}
+/*      ^^ variable.other.constant.aoe2-rms
+
+#define [A
+/*      ^^ variable.other.constant.aoe2-rms
+
+#define A]
+/*      ^^ variable.other.constant.aoe2-rms
+
+/* A lone { surrounded by whitespace opens a block. */
+
+{
+/* <- punctuation.section.block.begin.aoe2-rms
+}
+/* <- punctuation.section.block.end.aoe2-rms

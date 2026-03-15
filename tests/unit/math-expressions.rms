@@ -1,0 +1,24 @@
+/* SYNTAX TEST "source.aoe2-rms" "math-expressions"
+
+#const RESULT (1 + 2)
+/*             ^ constant.numeric.integer.aoe2-rms
+/*               ^ keyword.operator.aoe2-rms
+/*                 ^ constant.numeric.integer.aoe2-rms
+
+#const RESULT (1.5 + 2.5)
+/*             ^^^ constant.numeric.float.aoe2-rms
+/*                 ^ keyword.operator.aoe2-rms
+/*                   ^^^ constant.numeric.float.aoe2-rms
+
+#const RESULT (ZAR + DOZ)
+/*             ^^^ variable.other.constant.aoe2-rms
+/*                 ^ keyword.operator.aoe2-rms
+
+#const RESULT (1 * 2 - 3 % 4)
+/*             ^ constant.numeric.integer.aoe2-rms
+/*               ^ keyword.operator.aoe2-rms
+/*                 ^ constant.numeric.integer.aoe2-rms
+/*                   ^ keyword.operator.aoe2-rms
+/*                     ^ constant.numeric.integer.aoe2-rms
+/*                       ^ keyword.operator.aoe2-rms
+/*                         ^ constant.numeric.integer.aoe2-rms
