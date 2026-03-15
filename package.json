@@ -1,7 +1,7 @@
 {
-  "name": "twest-aoe2-rms",
+  "name": "age2-rms",
   "displayName": "Aoe2 RMS",
-  "publisher": "twestura",
+  "publisher": "T-West",
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
